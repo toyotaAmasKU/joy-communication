@@ -1,6 +1,7 @@
-Author : Supakit Kriangkhajorn ,2016
+Author : Supakit Kriangkhajorn, 2016
 
 Follow me : skconan
+
 
 
 
@@ -24,6 +25,6 @@ How to
     1. run file joy_read_matlab.m
 
     2. run model joy_send.slx
-    
+
 
 Thank you
