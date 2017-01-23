@@ -1,6 +1,6 @@
-/*  author : Supakit Kriangkhajorn
-    follow me : skconan
-    ref: https://www.mathworks.com/help/simulink/sfg/example-of-a-basic-c-mex-s-function.html   */
+/*  Author : Supakit Kriangkhajorn ,2016
+    Follow me : skconan
+    Ref: https://www.mathworks.com/help/simulink/sfg/example-of-a-basic-c-mex-s-function.html   */
 
 #define S_FUNCTION_NAME joy_read_c /* Defines and Includes */
 #define S_FUNCTION_LEVEL 2
