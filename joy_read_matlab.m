@@ -6,8 +6,8 @@ lr = 0;
 f = 0;
 maxscale = 100;
 
-filename(1) = fopen('joy_forward.txt','w');
-filename(2) = fopen('joy_leftright.txt','w');
+filename(1) = fopen('joy_forward.txt','r+');
+filename(2) = fopen('joy_leftright.txt','r+');
 
 while true
     [pos, btn] = mat_joy(0);
@@ -22,8 +22,8 @@ while true
         velocity = maxscale;
     end
     
-    lr = uint8(pos(1)*100);
-    f = uint8(velocity);
+    lr = int8(pos(1)*100);
+    f = int8(velocity);
     
     fprintf('forward    : %.0f\n',f);
     fprintf('left-rigth : %.0f\n',lr);
