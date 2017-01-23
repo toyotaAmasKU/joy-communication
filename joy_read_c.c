@@ -49,7 +49,7 @@ static void mdlOutputs(SimStruct *S, int_T tid)
     int_T width1 = ssGetOutputPortWidth(S,1);
     
     fptr = fopen("joy_leftright.txt","r"); 
-    fseek(fptr, -sizeof(char)*3, SEEK_END);
+    fseek(fptr, -sizeof(char)*4, SEEK_END);
     fscanf(fptr,"%d",&leftright);
     fclose(fptr);
     *y1 = leftright;
