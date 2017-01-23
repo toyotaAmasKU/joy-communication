@@ -14,7 +14,7 @@ joy-communication
 Library 
     Name : mat_joy
 
-    Author : Author: Stanislaw Adaszewski, 2012
+    Author : Stanislaw Adaszewski, 2012
 
     Reference : http://algoholic.eu/mat_joy-matlab-interface-for-joysticks/
 
@@ -24,5 +24,6 @@ How to
     1. run file joy_read_matlab.m
 
     2. run model joy_send.slx
+    
 
 Thank you
